@@ -43,5 +43,5 @@ def feed(rssurl):
     #print(ret)
     return ret + "\n\n"
 if __name__ == '__main__':
-    rssurl = 'http://blog.livedoor.jp/news23vip/index.rdf'
+    rssurl = 'http://www.dlsite.com/home/rss/=/channel/news_maniax'
     feed(rssurl)
