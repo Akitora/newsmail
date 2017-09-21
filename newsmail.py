@@ -10,5 +10,5 @@ text5 = newsmail_feed.feed('http://blog.livedoor.jp/nwknews/index.rdf')
 
 text = text1 + text2 + text3 + text4 + text5
 to_address = "xxx@xxx.com"
-AT_smtp.smtp(subject,text,to_address)
+newsmail_smtp.smtp(subject,text,to_address)
 
